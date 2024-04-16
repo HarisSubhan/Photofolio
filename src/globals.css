@@ -1,0 +1,67 @@
+body{
+    background-color: #000;
+    color: white;
+}
+
+li{
+    cursor: pointer;
+}
+
+.gallery:hover .gallery-1{
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: visible;
+}
+
+.sub:hover .gallery-2{
+    opacity: 1;
+    transform: translateY(0px);
+    visibility: visible;
+}
+
+.gallery-1,.gallery-2{
+    opacity: 0;
+    transform: translateY(20px);
+    visibility: hidden;
+    transition: all 0.8s;
+    color: white;
+
+}
+
+.list{
+    display: none;
+}
+
+.close{
+    display: none;
+}
+.name{
+    position: relative;
+}
+.name::before{
+    content:'';
+    position:absolute;
+    width:100%;
+    height:50%;
+    background: #27A776;
+    bottom:0;
+    z-index: -1;
+}
+
+@media only screen and (max-width:1000px){
+    .list{
+        display: block;
+    }
+    .my-menu{
+        flex-direction: column;
+        position: absolute;
+        width: 40vw;
+        height: 100vh;
+        top: 0;
+        right: 0;;
+        background: grey;
+        transform:translateX(100%);
+        transition: all 0.9s;
+
+    }
+}
