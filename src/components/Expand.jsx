@@ -17,15 +17,7 @@ const Expand = ({id, myImage, show, setShow}) => {
      }} className=''>
 
         <img className='expand mx-auto d-block' style={{ objectFit:'cover', border:'2px' }} width="50%" height="80%" src={myImage?.image} />
-        <div className=" mx-auto fs-2 p-3 "  style={{ 
-          width:'50%',
-          height:'10%',
-          font:'caption',
-          background:'#222425 '
-          
-        }}>
-          Gallery { myImage.id}
-        </div>
+        
     </div>
     
 
