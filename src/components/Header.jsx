@@ -14,11 +14,11 @@ const Header = () => {
     const showMenu = useRef();
 
     const show = () =>{
-        showMenu.current.style.transform= 'translateX(0)'
+        showMenu.current.style.transform = 'translateX(0)'
     }
 
     const hide = () =>{
-        showMenu.current.style.transform= 'translateX(100%)'
+        showMenu.current.style.transform = 'translateX(100%)'
     }
 
 

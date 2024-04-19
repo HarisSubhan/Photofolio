@@ -20,42 +20,42 @@ export const photos = [
         link:'test'
     },
     {
-        id:4,
+        id:54,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-4.jpg',
         link:'test'
     },
     {
-        id:4,
+        id:64,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-5.jpg',
         link:'test'
     },
     {
-        id:4,
+        id:74,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-6.jpg',
         link:'test'
     },
     {
-        id:4,
+        id:84,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-7.jpg',
         link:'test'
     },
     {
-        id:4,
+        id:94,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-8.jpg',
         link:'test'
     },
     {
-        id:4,
+        id:104,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-9.jpg',
         link:'test'
     },
     {
-        id:4,
+        id:114,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-10.jpg',
         link:'test'
     },
     {
-        id:4,
+        id:124,
         image:'https://bootstrapmade.com/demo/templates/PhotoFolio/assets/img/gallery/gallery-11.jpg',
         link:'test'
     },

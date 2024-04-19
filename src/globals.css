@@ -48,6 +48,32 @@ li{
     z-index: -1;
 }
 
+.overlay{
+    transition: all 0.8s;
+    z-index: 3222;
+}
+
+.touch{
+    overflow: hidden;
+}
+
+.touch:hover .overlay{
+    opacity: 1 !important;
+}
+.photo{
+    transition: all 1s;
+}
+.touch:hover .photo{
+    scale: 1.1;
+}
+.icons{
+    transform: translateY(20px);
+}
+
+.touch:hover .icons{
+    transform: translateY(0);
+}
+
 @media only screen and (max-width:1000px){
     .list{
         display: block;
@@ -61,7 +87,9 @@ li{
         right: 0;;
         background: grey;
         transform:translateX(100%);
-        transition: all 0.9s;
-
+        transition: all 0.8s;
+    }
+    .close{
+        display: block;
     }
 }
